@@ -1,0 +1,19 @@
+body {
+  background: #393b41;
+}
+
+#box-container {
+  margin: 100px auto;
+  width: 600px;
+  padding: 30px 25px;
+  background: white;
+  box-shadow: 10px 10px 5px 12px rgb(85, 83, 83);
+}
+
+#title {
+  color: #666;
+  margin: 0px auto 25px;
+  font-size: 30px;
+  font-weight: 500;
+  text-align: center;
+}

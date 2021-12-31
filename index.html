@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="box-container">
+      <header id="form-header">
+        <h1 id="title">freeCodeCamp Survey Form</h1>
+        <p id="description">Thank you for taking the time to help us improve the platform</p>
+      </header>
+      <form id="survey-form">
+        <div class="my-form">
+          <label id="name-label" for="name">Name</label><br />
+          <input type="text" id="name" class="field" name="name" placeholder="Enter your name..." required />
+        </div>
+        <div class="my-form">
+          <label id="email-label" for="email">Email</label><br />
+          <input type="email" id="email" class="field" name="email" placeholder="Enter your Email..." required />
+        </div>
+        <div class="my-form">
+          <label id="age-label" for="age">Age (optional)</label><br />
+          <input type="number" id="age" class="field" name="age" placeholder="Age..." required min="10" max="120" />
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
