@@ -1,3 +1,3 @@
-# SurveyForm-FreeCodeCamp #2 Challenge
+# SurveyForm FreeCodeCamp #2 Challenge
 
 # live:
